@@ -1,10 +1,6 @@
 # Lab Report 1
 ![Image](sc1.jpg)
 
-![Image](sc2.jpg)
-
-![Image](sc3.jpg)
-
 Command: [user@sahara ~]$ cd
 
 Explanation: This command moves the user to their home directory.
@@ -29,6 +25,8 @@ Output: No visible output.
 
 Error: Not in this context since there's no indication that the user attempted to provide or terminate input.
 
+![Image](sc2.jpg)
+
 Command: [user@sahara ~]$ cd lecture1
 
 Explanation: This command moves the user into the lecture1 directory.
@@ -52,6 +50,8 @@ Explanation: The user attempts to display the content of messages using cat.
 Output: cat: messages: Is a directory
 
 Error: Yes. The error arises because cat is used to display the content of files and not directories. The output indicates that messages is a directory and cannot be displayed using cat.
+
+![Image](sc3.jpg)
 
 Command: [user@sahara ~]$ cd lecture1/messages/en-us.txt
 
